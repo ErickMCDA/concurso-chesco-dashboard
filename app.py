@@ -10,7 +10,7 @@ import streamlit as st
 
 from config import (PARTICIPANTES, REDES, REDES_AUTOMATICAS, BONOS, ENLACES,
                     ZONA, INTERVALO_MINUTOS)
-from extractor import extraer_me_gusta, error_comprensible
+from extraccion_likes import extraer_me_gusta, error_comprensible
 from metrics import (texto_like, parsear_conteo, resumen_participante,
                      tabla_ranking, historial_totales)
 from storage import AlmacenSupabase, config_secret
